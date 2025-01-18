@@ -21,8 +21,8 @@ This is a backend application project using the Go programming language.
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/your-repository.git
-   cd your-repository
+   git clone https://github.com/andikspp/golang-api.git
+   cd golang-api
 
 2. **Install Depedencies**:
     ```sh
