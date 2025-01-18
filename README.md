@@ -9,7 +9,7 @@ This is a backend application project using the Go programming language.
   - `GET /get`: Saving all comments from the API to our database.
   - `GET /comments`: Retrieve all comments.
   - `GET /comments/{id}`: Retrieve a specific comment by its ID.
-  - `DELETE /comments/{id}`: Delete a comment by its ID.
+  - `DELETE /delete-comment/{id}`: Delete a comment by its ID.
 
   ## Technologies
 
@@ -33,9 +33,10 @@ This is a backend application project using the Go programming language.
     go run main.go
 
 4. **Access the API**:
-- `POST /comments`
+- `POST /create-comment`
+-  `GET /get`
 - `GET /comments`
 - `GET /comments/{id}`
-- `DELETE /comments/{id}`
+- `DELETE /delete-comment/{id}`
 
 
