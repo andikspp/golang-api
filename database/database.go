@@ -1,4 +1,3 @@
-// database/database.go
 package database
 
 import (
@@ -11,7 +10,6 @@ import (
 
 var DB *gorm.DB
 
-// ConnectDatabase untuk menghubungkan dan migrasi database
 func ConnectDatabase() {
     dsn := "root:@tcp(127.0.0.1:3306)/golang_api?charset=utf8mb4&parseTime=True&loc=Local"
     var err error
