@@ -25,15 +25,17 @@ This is a backend application project using the Go programming language.
    cd your-repository
 
 2. **Install Depedencies**:
-go mod tidy
+    ```sh
+    go mod tidy
 
 3. **Run the application**:
-go run main.go
+    ```sh
+    go run main.go
 
 4. **Access the API**:
-- POST /comments
-- GET /comments
-- GET /comments/{id}
-- DELETE /comments/{id}
+- `POST /comments`
+- `GET /comments`
+- `GET /comments/{id}`
+- `DELETE /comments/{id}`
 
 
